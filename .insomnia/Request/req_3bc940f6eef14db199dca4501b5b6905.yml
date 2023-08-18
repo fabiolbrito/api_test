@@ -1,10 +1,10 @@
-_id: req_a26ca91defa5471da8d524ed0d4f7d17
+_id: req_3bc940f6eef14db199dca4501b5b6905
 type: Request
 parentId: wrk_25236cd8f08146c0851a68f677bce3cc
-modified: 1692327278746
-created: 1692317825167
-url: http://localhost:8080/medicos
-name: Cadastro de Médico
+modified: 1692327723943
+created: 1692327676573
+url: http://localhost:8080/pacientes
+name: Cadastro de Paciente
 description: ""
 method: POST
 body:
@@ -13,8 +13,8 @@ body:
     {
     "nome": "Rodrigo Ferreira",
     "email": "rodrigo.ferreira@voll.med",
-    "crm": "123456",
-    "especialidade": "ORTOPEDIA",
+    "telefone" : "11982222598",	
+    "cpf": "123456",
     "endereco": {
         "logradouro": "rua 1",
         "bairro": "bairro",
@@ -32,7 +32,7 @@ headers:
   - name: User-Agent
     value: Insomnia/2023.5.3
 authentication: {}
-metaSortKey: -1692317825167
+metaSortKey: -1692317825117
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
