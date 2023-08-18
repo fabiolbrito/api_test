@@ -1,0 +1,42 @@
+_id: req_a26ca91defa5471da8d524ed0d4f7d17
+type: Request
+parentId: wrk_25236cd8f08146c0851a68f677bce3cc
+modified: 1692317948002
+created: 1692317825167
+url: http://localhost:8080/medicos
+name: Cadastro de Médico
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    "nome": "Rodrigo Ferreira",
+    "email": "rodrigo.ferreira@voll.med",
+    "crm": "123456",
+    "especialidade": "ortopedia",
+    "endereco": {
+        "logradouro": "rua 1",
+        "bairro": "bairro",
+        "cep": "12345678",
+        "cidade": "Brasilia",
+        "uf": "DF",
+        "numero": "1",
+        "complemento": "complemento"
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.3
+authentication: {}
+metaSortKey: -1692317825167
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
